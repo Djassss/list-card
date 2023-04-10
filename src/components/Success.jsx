@@ -5,8 +5,8 @@ const Success = ({ count }) => {
     <div className='success'>
       <div>
         <img src={require('../img/correct.png')}  />
-        <h2>Успешно!</h2>
-        <p>всем {count} пользователям отправлено приглашение</p>
+        <h2>Successfully!</h2>
+        <p>An {count} invitation has been sent to all users</p>
         <button onClick={() => window.location.reload()}>Back</button>
       </div>
     </div>
